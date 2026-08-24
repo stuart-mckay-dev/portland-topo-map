@@ -1,0 +1,38 @@
+# Secrets. The OpenTopography key lives at the repo root; never commit it.
+OpenTopography_API_Key.txt
+*api_key*
+*API_Key*
+*.env
+
+# Generated data. Created on first run, regenerate with scripts/.
+# Never hand-edit.
+data/
+
+# Large binaries
+*.tif
+*.tiff
+*.las
+*.laz
+*.stl
+*.3mf
+*.gcode
+*.gcode.3mf
+*.f3d
+*.f3z
+
+# Python env
+.venv/
+venv/
+
+# Blender / QGIS cruft
+*.blend1
+*.qgz~
+__pycache__/
+*.pyc
+.DS_Store
+
+# Scratch / local-only
+_to_delete/
+test_prints/
+*.blend
+*.bak
