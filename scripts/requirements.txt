@@ -1,0 +1,13 @@
+# For dem_stats.py and qgis_export_tiles.py run outside QGIS.
+# QGIS ships its own Python with these already available -- use the
+# QGIS Python console instead if you prefer.
+numpy>=1.24
+rasterio>=1.3
+# Optional, for scripted DEM download from OpenTopography:
+requests>=2.31
+# For smooth_boundary.py and boundary_prism.py.
+# 2.1 is a HARD requirement for boundary_prism.py: it needs
+# constrained_delaunay_triangles() to build watertight caps.
+# Older shapely falls back to a filtered unconstrained Delaunay,
+# which leaves non-manifold edges on a boundary this convoluted.
+shapely>=2.1
