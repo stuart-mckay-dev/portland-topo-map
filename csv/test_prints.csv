@@ -1,0 +1,23 @@
+date,test_id,what_is_being_tested,parameter,value,layer_mm,result,keep_or_reject,notes
+,LADDER-A,vertical exaggeration,exaggeration,2x,,,,print on one plate with B/C/D and view on the actual wall
+,LADDER-B,vertical exaggeration,exaggeration,4x,,,,
+,LADDER-C,vertical exaggeration,exaggeration,7x,,,,
+,LADDER-D,vertical exaggeration,exaggeration,11x,,,,
+,GROOVE-1,engraved road depth,depth_mm,0.25,,,,
+,GROOVE-2,engraved road depth,depth_mm,0.35,,,,
+,GROOVE-3,engraved road depth,depth_mm,0.50,,,,
+,WIDTH-1,engraved road width,width_mm,0.8,,,,must exceed one extrusion width
+,WIDTH-2,engraved road width,width_mm,1.2,,,,
+,FIT-1,registration clearance,clearance_mm,0.10,,,,print edge coupons not full tiles
+,FIT-2,registration clearance,clearance_mm,0.15,,,,
+,FIT-3,registration clearance,clearance_mm,0.20,,,,
+,SEAM-1,seam continuity,adjacent tile pair,r01c01+r01c02,,,,check for ridge or gutter
+,PAINT-1,groove paint fill,acrylic wash,,,,,panel-lining technique see docs/07
+,AMS-1,elevation banding,bands,6,,,,cheap - one change per band
+,AMS-2,XY road color,colors,3,,,,expensive - measure actual purge vs color_cost.py estimate
+,HOLLOW-1,rib box ceiling bridging,rib_spacing_mm,30,,,,does the flat ceiling bridge cleanly - 60x60mm coupon
+,HOLLOW-2,rib shell sag on flats,rib_spacing_mm,30,,,,use a FLAT terrain crop - worst case for shell sag
+,HOLLOW-3,rib shell sag tighter,rib_spacing_mm,20,,,,does tighter spacing fix HOLLOW-2
+,HOLLOW-4,support removal from open bottom,support_density,0.05,,,,RUN FIRST - can invalidate the approach
+,HOLLOW-5,shell stiffness,shell_mm,6.0,,,,compare against 12.7mm - stiff enough to handle
+,HOLLOW-6,open bottom bed adhesion,brim_mm,8,,,,RUN FIRST - long print on a perimeter ring only

@@ -1,0 +1,13 @@
+tile_id,phase,row,col,status,heightmap_done,mesh_done,sliced,z_height_mm,est_hours,actual_hours,est_grams,actual_grams,filament,exaggeration,layer_mm,print_date,result,notes
+pdx_pilot_r01c01,pilot,1,1,ready_to_slice,2026-08-24,2026-08-24,,11.29,0.45,,7.9,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 22.69 cm3
+pdx_pilot_r01c02,pilot,1,2,ready_to_slice,2026-08-24,2026-08-24,,5.08,0.34,,5.9,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 17.13 cm3
+pdx_pilot_r01c03,pilot,1,3,ready_to_slice,2026-08-24,2026-08-24,,4.39,0.19,,3.3,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 9.59 cm3
+pdx_pilot_r01c04,pilot,1,4,omitted,2026-08-24,2026-08-24,,4.30,0.00,,0.1,,,2.047,0.20,,,"sliver, 0.17 cm3 bulk - not printed; merge into neighbour or accept gap"
+pdx_pilot_r02c01,pilot,2,1,ready_to_slice,2026-08-24,2026-08-24,,12.00,0.34,,5.9,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 17.00 cm3
+pdx_pilot_r02c02,pilot,2,2,ready_to_slice,2026-08-24,2026-08-24,,11.87,0.74,,12.9,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 37.04 cm3
+pdx_pilot_r02c03,pilot,2,3,ready_to_slice,2026-08-24,2026-08-24,,8.33,0.73,,12.7,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 36.69 cm3
+pdx_pilot_r02c04,pilot,2,4,ready_to_slice,2026-08-24,2026-08-24,,6.36,0.53,,9.2,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 26.36 cm3
+pdx_pilot_r03c01,pilot,3,1,omitted,2026-08-24,2026-08-24,,6.14,0.00,,0.0,,,2.047,0.20,,,"sliver, 0.09 cm3 bulk - not printed; merge into neighbour or accept gap"
+pdx_pilot_r03c02,pilot,3,2,ready_to_slice,2026-08-24,2026-08-24,,11.24,0.79,,13.6,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 39.27 cm3
+pdx_pilot_r03c03,pilot,3,3,ready_to_slice,2026-08-24,2026-08-24,,6.82,0.44,,7.7,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 22.15 cm3
+pdx_pilot_r03c04,pilot,3,4,ready_to_slice,2026-08-24,2026-08-24,,9.47,0.41,,7.1,,,2.047,0.20,,,relief 8.0mm / base 4mm; bulk 20.54 cm3
