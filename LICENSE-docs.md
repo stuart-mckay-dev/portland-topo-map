@@ -1,6 +1,6 @@
 # Documentation License
 
-Copyright (c) 2026 Stuart
+Copyright (c) 2026 Stuart McKay
 
 The documentation and figures in this repository — `README.md`, `RUNBOOK.md`,
 everything under `docs/` (including `docs/img/`), and the logs

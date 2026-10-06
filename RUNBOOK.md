@@ -44,7 +44,7 @@ These are the values the pilot was built with. For a new scale, regenerate them 
 | Bambu Studio | current | Slicing for the X1 Carbon + AMS |
 
 ```bash
-git clone <this repo> PortlandTopo && cd PortlandTopo
+git clone https://github.com/stuart-mckay-dev/portland-topo-map.git && cd portland-topo-map
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r scripts/requirements.txt         # numpy, rasterio, requests, shapely>=2.1
 mkdir -p data/raw data/derived data/heightmaps data/vectors data/prisms data/tiles
